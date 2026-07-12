@@ -25,6 +25,7 @@ export interface LocaleMeta {
 export const LOCALES: LocaleMeta[] = [
   { code: "en", name: "English", nativeName: "English", dir: "ltr", font: "inter" },
   { code: "fa", name: "Persian", nativeName: "فارسی", dir: "rtl", font: "vazirmatn" },
+  { code: "zh-CN", name: "Chinese (Simplified)", nativeName: "简体中文", dir: "ltr", font: "cjk" },
 ];
 
 export const DEFAULT_LOCALE = "en";

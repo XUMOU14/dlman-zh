@@ -4,6 +4,7 @@ import { DEFAULT_LOCALE } from "./config";
 import { applyLocale, bootLanguage, bootFont } from "./apply";
 import en from "./locales/en/translation.json";
 import fa from "./locales/fa/translation.json";
+import zhCN from "./locales/zh-CN/translation.json";
 
 /**
  * Bundled translation catalogs. To add a language, drop a
@@ -13,6 +14,7 @@ import fa from "./locales/fa/translation.json";
 export const resources = {
   en: { translation: en },
   fa: { translation: fa },
+  "zh-CN": { translation: zhCN },
 } as const;
 
 const bootLng = bootLanguage();

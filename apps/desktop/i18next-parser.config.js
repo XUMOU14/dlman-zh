@@ -15,7 +15,7 @@
  */
 export default {
   // Keep in sync with src/i18n/config.ts (LOCALES).
-  locales: ["en", "fa"],
+  locales: ["en", "fa", "zh-CN"],
   input: ["src/**/*.{ts,tsx}"],
   output: "src/i18n/locales/$LOCALE/$NAMESPACE.json",
   defaultNamespace: "translation",
